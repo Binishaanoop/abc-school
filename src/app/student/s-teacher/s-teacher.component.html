@@ -1,0 +1,63 @@
+
+<nav class="nav-container navbar-expand-lg navbar-light" style="background-color:rgba(180, 63, 17, 0.253) ;">
+    
+    <ul class="right-side">
+        <li><a class="navbar-brand" >ABC SCHOOL</a></li>
+        <li><a [routerLink]="'/home'" class="nav-link">Home</a></li>
+       
+      
+    </ul>
+    <ul class="left-side">
+        <li><a [routerLink]="'/home'" class="nav-link">Logout</a></li>
+    </ul>
+
+</nav>
+<div class="sidebar">
+    <div class="brand_name">
+        <h1>Admin</h1>
+    </div>
+    <ul>
+        <li> Dashboard</li>
+        <li><a [routerLink]="'/student-profile'">My Profile</a> </li>
+        <li><a href="">Teachers</a> </li>
+        <li><a href="">Attendence</a> </li>
+        <li><a href="">Assignments</a> </li>
+        <li><a href="">Notice</a> </li>
+    </ul>
+</div>
+<div class="table">
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Teacher1</td>
+                <td>Sub1</td>
+                <td>123456787</td>
+                <td>t1@gmail.com</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>Teacher2</td>
+                <td>Sub2</td>
+                <td>223456787</td>
+                <td>t2@gmail.com</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>Teacher3</td>
+                <td>Sub3</td>
+                <td>323456787</td>
+                <td>t3@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

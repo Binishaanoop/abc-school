@@ -1,0 +1,48 @@
+<nav class="nav-container navbar-expand-lg navbar-light" style="background-color:rgba(180, 63, 17, 0.253) ;">
+    
+    <ul class="right-side">
+        <li><a class="navbar-brand" >ABC SCHOOL</a></li>
+        <li><a [routerLink]="'/home'" class="nav-link">Home</a></li>
+        <li><a [routerLink]="'/student'" class="nav-link"></a></li>
+        <li><a [routerLink]="'/teacher'" class="nav-link"></a></li>
+        <!-- <li><a [routerLink]="'/parent-login'" class="nav-link">Parent</a></li> -->
+    </ul>
+    <ul class="left-side">
+        <li><a [routerLink]="'/home'" class="nav-link">Logout</a></li>
+    </ul>
+
+</nav>
+<div class="sidebar">
+    <div class="brand_name">
+        <h1>Admin</h1>
+    </div>
+    <ul>
+        <li> Dashboard</li>
+        <li><a [routerLink]="'/student/student-profile'">My Profile</a> </li>
+        <li><a [routerLink]="'/student/t-list'">Teachers</a> </li>
+        <li><a href="">Attendence</a> </li>
+        <!-- <li><a href="">Assignments</a> </li> -->
+        <li><a href="">Notice</a> </li>
+    </ul>
+</div>
+
+<div class="div1">
+    <p><b>Personal Information</b></p>
+    <p>Name:</p>
+    <p>Class:</p>
+    <p>Roll No:</p>
+    <p>Gender:</p>
+    <p>DOB:</p>
+</div>
+<div class="div2">
+    <p><b>Contact Details</b></p>
+    <p>Address:</p>
+    <p>Phone Number:</p>
+    <p>Email Id:</p>
+</div>
+<div class="div3">
+    <p><b>Parent Details</b></p>
+    <p>Father:</p>
+    <p>Mother:</p>
+    <p>Phone Number:</p>
+</div>

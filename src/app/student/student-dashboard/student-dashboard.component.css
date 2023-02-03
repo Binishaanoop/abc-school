@@ -1,0 +1,69 @@
+
+
+ .nav-link{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: bold;
+ }
+ 
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+.right-side, .left-side{
+    list-style: none;
+}
+.right-side li, .left-side li{
+    display: inline-block;
+}
+.right-side li a, .left-side li a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    padding: 14px 16px;
+
+}
+h1, h2{
+    color: #444;
+}
+.sidebar{
+    position: fixed;
+    /* background: rgba(61, 28, 15, 0.253) ; */
+    background: white;
+    width: 20vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar .brand_name{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sidebar li{
+    font-size: 24px;
+    padding: 10px 40px;
+    color: black;
+    display: flex;
+    align-items: center;
+    /* list-style-image: url(/assets/images/dashboard.jpg); */
+}
+.sidebar li:hover{
+    background: white;
+    color: #f05462;
+
+}
+.sidebar a{
+    color: black;
+}
+.sidebar a:hover{
+    background: white;
+    color: #f05462; 
+}
+a{
+    text-decoration: none;
+}

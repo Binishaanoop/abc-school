@@ -1,0 +1,44 @@
+<nav class="nav-container navbar-expand-lg navbar-light" style="background-color:rgba(180, 63, 17, 0.253) ;">
+    
+    <ul class="right-side">
+        <li><a class="navbar-brand" >ABC SCHOOL</a></li>
+        <li><a [routerLink]="'/home'" class="nav-link">Home</a></li>
+        <li><a [routerLink]="'/student'" class="nav-link">Student</a></li>
+        <li><a [routerLink]="'/teacher'" class="nav-link">Teacher</a></li>
+        <!-- <li><a [routerLink]="'/parent-login'" class="nav-link">Parent</a></li> -->
+    </ul>
+    <ul class="left-side">
+        <li><a [routerLink]="'/contact'" class="nav-link">Contact Us</a></li>
+    </ul>
+
+</nav>
+<div class="center">
+    <h1>Student Login</h1>
+    <form >
+        <div class="txt_field">
+            <input type="text" name="" value="" >
+            <span></span>
+            <label for="">Username</label>
+        </div>
+        <div class="txt_field">
+            <input type="password" name="" value="" >
+            <span></span>
+            <label for="">Password</label>
+        </div>
+        <div class="pass">Forgot Password?</div>
+        <button ><a [routerLink]="'/student-dashboard'"> Login</a></button><br><br><br>
+        <!-- <div class="pass">Not a member?
+        <a [routerLink]="'/student/student-dashboard'"> Apply For Job</a></div>
+         -->
+    </form>
+  </div>
+
+
+  
+        
+     
+  
+
+
+
+    

@@ -1,0 +1,40 @@
+<nav class="nav-container navbar-expand-lg navbar-light" style="background-color:rgba(180, 63, 17, 0.253) ;">
+    
+    <ul class="right-side">
+        <li><a class="navbar-brand" >ABC SCHOOL</a></li>
+        <li><a [routerLink]="'/home'" class="nav-link">Home</a></li>
+        <li><a [routerLink]="'/student'" class="nav-link">Student</a></li>
+        <li><a [routerLink]="'/teacher'" class="nav-link">Teacher</a></li>
+        <!-- <li><a [routerLink]="'/parent-login'" class="nav-link">Parent</a></li> -->
+    </ul>
+    <ul class="left-side">
+        <li><a [routerLink]="'/contact'" class="nav-link">Contact Us</a></li>
+    </ul>
+
+</nav>
+<div class="center">
+    <h1>Teacher Login</h1>
+    <form >
+        <div class="txt_field">
+            <input type="text" name="" value="" required>
+            <span></span>
+            <label for="">Username</label>
+        </div>
+        <div class="txt_field">
+            <input type="password" name="" value="" required>
+            <span></span>
+            <label for="">Password</label>
+        </div>
+        <div class="pass">Forgot Password?</div>
+        <button><a [routerLink]="'/teacher-dashboard'"> Login</a></button>
+    </form>
+  </div>
+<!-- <app-login [user_type]="'student login'" [user_label]="'registration number'" [password_label]="'phone number'" (emitter)="data_received($event)"></app-login><br> -->
+  
+        
+     
+  
+
+
+
+    

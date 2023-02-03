@@ -1,0 +1,26 @@
+<nav class="nav-container navbar-expand-lg navbar-light" style="background-color:rgba(180, 63, 17, 0.253) ;">
+    
+    <ul class="right-side">
+        <li><a class="navbar-brand" >ABC SCHOOL</a></li>
+        <li><a [routerLink]="'/home'" class="nav-link">Home</a></li>
+       
+      
+    </ul>
+    <ul class="left-side">
+        <li><a [routerLink]="'/home'" class="nav-link">Logout</a></li>
+    </ul>
+
+</nav>
+<div class="sidebar">
+    <div class="brand_name">
+        <h1>Admin</h1>
+    </div>
+    <ul>
+        <li> Dashboard</li>
+        <li><a [routerLink]="'/student-profile'">My Profile</a> </li>
+        <li><a [routerLink]="'/s-teacher'">Teachers</a> </li>
+        <!-- <li><a [routerLink]="'/'">Password</a> </li> -->
+        <li><a [routerLink]="">Assignments</a> </li>
+        <li><a [routerLink]="">Notice</a> </li>
+    </ul>
+</div>
